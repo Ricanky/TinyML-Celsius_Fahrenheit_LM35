@@ -46,7 +46,7 @@ uint8_t tensor_arena[kTensorArenaSize];
 
 // The name of this function is important for Arduino compatibility.
 void setup() {
-  Serial.begin(115000);
+  Serial.begin(115200);
   pinMode(LED_PIN, OUTPUT); // Configura el pin del LED como salida
   digitalWrite(LED_PIN, LOW); // Asegúrate de que el LED esté apagado al inicio
 
