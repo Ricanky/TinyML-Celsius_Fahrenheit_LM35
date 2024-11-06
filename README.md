@@ -38,17 +38,6 @@ Este repositorio contiene el código y los archivos necesarios para integrar una
 4. Subir el código:
    Conecta la ESP32 a tu computadora y carga el código en la placa mediante PlatformIO.
 
-## Instrucciones de Uso
-
-1. Entrenar el modelo:
-   El entrenamiento se realiza en Google Colab. Consulta el archivo de entrenamiento en `model_training.ipynb`.
-
-2. Convertir el modelo a .cpp:
-   Después del entrenamiento, convierte el modelo a un archivo `.cpp` y reemplaza el archivo en el proyecto.
-
-3. Prueba de funcionamiento:
-   Sube el proyecto a la ESP32 y verifica que la conversión de temperatura se muestre en el monitor serial.
-
 ## Estructura del Proyecto
 
 - `src/`: Contiene el código principal y archivos fuente.
